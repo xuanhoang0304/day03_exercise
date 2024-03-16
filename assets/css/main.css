@@ -1,0 +1,370 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+/* Font */
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Black.woff2") format("woff2"),
+        url("../font/Poppins-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-ExtraBoldItalic.woff2") format("woff2"),
+        url("../font/Poppins-ExtraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-ExtraLight.woff2") format("woff2"),
+        url("../font/Poppins-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Bold.woff2") format("woff2"),
+        url("../font/Poppins-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-BlackItalic.woff2") format("woff2"),
+        url("../font/Poppins-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-BoldItalic.woff2") format("woff2"),
+        url("../font/Poppins-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-ExtraBold.woff2") format("woff2"),
+        url("../font/Poppins-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-ExtraLightItalic.woff2") format("woff2"),
+        url("../font/Poppins-ExtraLightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Medium.woff2") format("woff2"),
+        url("../font/Poppins-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Light.woff2") format("woff2"),
+        url("../font/Poppins-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-MediumItalic.woff2") format("woff2"),
+        url("../font/Poppins-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Italic.woff2") format("woff2"),
+        url("../font/Poppins-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-LightItalic.woff2") format("woff2"),
+        url("../font/Poppins-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Regular.woff2") format("woff2"),
+        url("../font/Poppins-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-SemiBold.woff2") format("woff2"),
+        url("../font/Poppins-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Thin.woff2") format("woff2"),
+        url("../font/Poppins-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-ThinItalic.woff2") format("woff2"),
+        url("../font/Poppins-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-SemiBoldItalic.woff2") format("woff2"),
+        url("../font/Poppins-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Css */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: #ccc;
+}
+.aBtn {
+    --height: 40px;
+    display: inline-block;
+    min-width: 100px;
+    border-radius: 999px;
+    line-height: var(--height);
+    text-align: center;
+    border: 1px solid orange;
+    color: #333;
+}
+
+.container {
+    width: calc(100% - 80px);
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ebe3e3;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+.header__logoWrap {
+    width: 60px;
+    height: 60px;
+}
+.header__logoImage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header__logoName {
+    font-size: 30px;
+    font-weight: 600;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.nav__link {
+    color: #333;
+    font-size: 12px;
+    padding: 4px 8px;
+}
+.nav__link:hover {
+    color: #000;
+    text-shadow: 1px 0 0 currentColor;
+    text-decoration: underline;
+}
+.nav__btn {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid orange;
+    color: #333;
+    transition: 0.4s;
+}
+.nav__btn:hover {
+    background-color: orange;
+    border: none;
+    color: #fff;
+    opacity: 0.8;
+}
+.hero {
+    overflow: hidden;
+    padding: 60px 0 60px 60px;
+}
+.hero__title,
+.hero__bottom {
+    margin-left: 80px;
+}
+
+.hero__title {
+    max-width: 70%;
+    font-size: 80px;
+    font-weight: 600;
+}
+.hero__container {
+    position: relative;
+    left: 80px;
+    margin-top: 60px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.hero__imgWrap {
+    width: 800px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.hero__imgWrap:first-child {
+    position: relative;
+    z-index: 0;
+}
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    transition: 1s;
+}
+.hero__imgWrap:hover .hero__img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.hero__inputWrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 999px;
+    width: calc(100% - 20px);
+    height: 40px;
+    background-color: #fff;
+    padding: 0px 2px 0 20px;
+}
+.hero__input {
+    padding: 20px 20px 20px 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: none;
+    outline: none;
+}
+.hero__input::placeholder {
+    font-weight: 600;
+    word-spacing: 4px;
+}
+
+.hero__inputLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #333;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 12px;
+}
+.hero__inputLink:hover {
+    opacity: 0.8;
+}
+.hero__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 180px 0 80px;
+}
+.hero__desc {
+    color: #000;
+    max-width: 60%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.hero__btn {
+    min-width: 160px;
+    font-size: 12px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.hero__btn:hover {
+    opacity: 0.7;
+}
